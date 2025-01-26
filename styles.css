@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.genDivs {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+}
