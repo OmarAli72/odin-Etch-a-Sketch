@@ -1,9 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     border: 5px solid black;
     width: 500px;
     height: 500px;
+    margin: 20px auto;
 }
 
 .genDivs {
@@ -12,4 +35,9 @@
     align-items: center;
     justify-content: center;
     aspect-ratio: 1;
+    border: 1px solid #ccc;
+}
+
+.genDivs:hover {
+    background-color: black;
 }
